@@ -11,7 +11,7 @@ mongoose.connect('MONGO DATABASE', (err, res) => {
     } else {
         console.log('Conexión a mongodb correcta.')
         app.listen(port, () => {
-            console.log("API ListaCompra funcionando");
+            console.log("API ListasCompartidas funcionando.");
         });
     }
 });

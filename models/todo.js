@@ -2,7 +2,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var ListaSchema = Schema({
+var TodoSchema = Schema({
   lista: String,
   pass: String,
   items: [
@@ -10,10 +10,10 @@ var ListaSchema = Schema({
       _id: Schema.Types.ObjectId,
       tachado: Boolean,
       nombre: String,
-      precio: Number
+      prioridad: Number
     }
   ]
 });
 
 // exportamos el modelo
-module.exports = mongoose.model('Lista', ListaSchema);
+module.exports = mongoose.model('Todo', TodoSchema);
