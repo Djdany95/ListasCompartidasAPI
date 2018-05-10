@@ -8,8 +8,8 @@ wish.post('/getlist/', WishController.getList);
 wish.post('/getpass/', WishController.getPass);
 wish.post('/list/', WishController.newList);
 wish.post('/renamelist/', WishController.editList);
-wish.delete('/list/', WishController.delList);
 wish.post('/item/', WishController.addItem);
+wish.delete('/list/', WishController.delList);
 wish.delete('/item/', WishController.delItem);
 
 module.exports = wish;
