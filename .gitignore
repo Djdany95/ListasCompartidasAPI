@@ -92,5 +92,5 @@ $RECYCLE.BIN/
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
-constants.js
+private.constants.js
 package-lock.json

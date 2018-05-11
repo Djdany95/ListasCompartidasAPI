@@ -1,5 +1,9 @@
-# ListaCompartidaAPI
+# ListasCompartidasAPI
 
+### API para mi Ionic app ListasCompartidas
+
+# Documentacion
+Documentación disponible en [Documentación](apidoc/index.html).
 
 ## License
 
