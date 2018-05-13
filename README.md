@@ -3,7 +3,7 @@
 ### API para mi Ionic app ListasCompartidas
 
 # Documentacion
-Documentación disponible en [Documentación](apidoc/index.html).
+Documentación disponible en [Documentación](https://djdany01.github.io/ListasCompartidasAPI/docs).
 
 ## License
 
