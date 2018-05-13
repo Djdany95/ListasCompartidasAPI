@@ -4,7 +4,6 @@
 var mongoose = require('mongoose');
 var app = require('./app');
 var port = process.env.PORT || 3678;
-var constants = require('./constants');
 
 mongoose.connect(process.env.MONGODB, (err, res) => {
     if (err) {
