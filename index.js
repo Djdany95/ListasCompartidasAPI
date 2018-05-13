@@ -6,13 +6,13 @@ var app = require('./app');
 var port = process.env.PORT || 3678;
 var constants = require('./constants');
 
-mongoose.connect(constants.db, (err, res) => {
-  if (err) {
-    throw err;
-  } else {
-    console.log('MongoDB OK.');
-    app.listen(port, () => {
-      console.log('API OK.');
-    });
-  }
+mongoose.connect(process.env.MONGODB, (err, res) => {
+    if (err) {
+        throw err;
+    } else {
+        console.log('MongoDB OK.');
+        app.listen(port, () => {
+            console.log('API OK.');
+        });
+    }
 });
